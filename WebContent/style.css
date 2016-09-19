@@ -1,3 +1,39 @@
 #cart .price {
 	font-weight:bold;
 }
+
+table td {
+	border: 1px solid black;
+	width: 100px;
+	padding:5px;
+}
+
+table tr:first-child {
+	background: lightGray;
+	color:black;
+}
+
+h2 {
+	
+}
+
+#product {
+	margin-top:20px;
+}
+
+#product .title::before {
+	content: "Title: ";
+	font-weight:bold;
+}
+
+#product .desc::before {
+	content: "Description: ";
+	font-weight:bold;
+}
+
+#product img {
+	width: 150px;
+    height: 150px;
+	
+}
+
